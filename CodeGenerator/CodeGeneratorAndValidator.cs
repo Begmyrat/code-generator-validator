@@ -113,7 +113,8 @@ namespace CodeGenerator
             Console.WriteLine($"Code isValid: {isValid}");
         }
 
-        //Generates Code 
+        //Generates Code
+        //To determine which element to use from each list. Decimal counter is converted to the numeral system with base n(# of different characters that can be in one digit)
         public string GenerateCode()
         {
             string code = string.Empty;
