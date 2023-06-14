@@ -55,7 +55,7 @@ namespace CodeGenerator
         //Creates a character list which by determining the possible characters that can be used for a specific digit of the code.
         private List<char> GenerateRandomCharGroup()
         {
-            List<char> charGroup = new List<char>();  //A char array includes possible values of specific digit of the code.
+            List<char> charGroup = new List<char>();  //A char list includes possible values of specific digit of the code.
 
             for (int i = 0; i < charGroupLength; i++)
             {
